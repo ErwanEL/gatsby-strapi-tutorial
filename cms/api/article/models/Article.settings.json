@@ -1,0 +1,38 @@
+{
+  "connection": "default",
+  "collectionName": "articles",
+  "info": {
+    "name": "article",
+    "description": "travel article"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "title": {
+      "minLength": -24,
+      "required": true,
+      "unique": true,
+      "type": "string"
+    },
+    "content": {
+      "default": "",
+      "type": "text"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "author": {
+      "model": "article",
+      "via": "articles"
+    },
+    "articles": {
+      "collection": "article",
+      "via": "author"
+    }
+  }
+}
