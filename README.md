@@ -25,4 +25,4 @@
 
 # ETAT DU PROJET
 
-Refaire l'étape 5 initier gatsby de nouveau
+Faire l'étape 7
