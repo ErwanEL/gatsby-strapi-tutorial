@@ -22,3 +22,7 @@
 <p>Note: Final tutorial and code is available at <a href="https://github.com/strapi/strapi-examples/tree/master/gatsby-strapi-tutorial">the GitHub repo for the Strapi and Gatsby tutorial</a>. In this repo, you can download and/or copy/paste the <a href="https://github.com/strapi/strapi-examples/tree/master/gatsby-strapi-tutorial/content-for-tutorial">example content</a>. </p>
 
 <p>Note: Within the content below we provide links that open a running <em>localhost</em> project. For either Strapi or Gatsby. These will not work if your server(s) have not been started.</p>
+
+# ETAT DU PROJET
+
+Refaire l'étape 5 initier gatsby de nouveau
